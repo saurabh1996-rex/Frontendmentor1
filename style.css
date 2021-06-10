@@ -111,4 +111,19 @@ main{
 .btn_3{
     color: var(--Very-dark-cyan);
 }
+@media (max-width:650px){
+    body{
+        flex-direction: column;
+        height: 200vh;
+    }
+    main{
+        margin-top: 5rem;
+        flex-direction: column;
+        width:90%;
+        height: 175vh;
+    }
+    .btn{
+        margin-top: 1rem;
+    }
+}
 
