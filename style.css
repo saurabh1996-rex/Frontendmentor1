@@ -32,6 +32,9 @@ main{
     align-items: center;
     margin: 0 8rem 0 8rem;
     color: var(--Transparent-white);
+    border-radius: .5rem;
+    overflow: hidden;
+  
 }
 
 
